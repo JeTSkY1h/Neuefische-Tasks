@@ -1,7 +1,6 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class AppMain {
+public class Task3 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.print("first number: ");
@@ -10,7 +9,7 @@ public class AppMain {
         int wertB = keyboard.nextInt();
 
         if (wertA == wertB) {
-            System.out.println("Die zahlen sind gleich Groß");
+            System.out.println("Die Zahlen sind gleich Groß");
         }
         if(wertA < wertB) {
             System.out.println("Zahl 1 ist Kleiner");
